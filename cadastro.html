@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="icone/favicon.ico" type="image/x-icon" />
+    <title>MIAMO</title>
+    <link rel="stylesheet" href="estilos/reset.css" />
+    <link rel="stylesheet" href="estilos/media.css" />
+    <link rel="stylesheet" href="estilos/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="js/Script.js"></script>
+
+  </head>
+<body>
+    <header>
+        <nav  class="navbar navbar-expand-lg">
+          <div id="nav.menu" class="container-fluid">
+            <a href="index.html"><img id="logo" src="img/index/LogoMiamo.gif" alt="logo MIAMO" /></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            </li>
+              <li class="nav-item"><a href="index.html">Início</a></li>
+              <li class="nav-item"><a href="catalogo.html">Catálogo</a></li>
+            </ul>
+  
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="O Que Procura?" aria-label="Search">
+              <button class="btn btn-outline-dark" type="submit">Procurar</button>
+            </form>
+  
+            </div>
+  
+        </nav>
+      </header>
+      
+      <form>
+            <div class="body">
+        <div class="layer">
+            <div class="form">
+                <div class="login-form">
+                    <div class="heading">Fale Conosco</div>
+                    <div class="input-box">
+                        <form action="" method="post">
+                            <input  id="nome" type="text" class="input opacidade" placeholder="Seu Nome" required>
+                            <input  id="email" type="email" class="input opacidade" placeholder="Seu E-mail" required>
+                            <input  id="telefone" type="text" class="input opacidade phone" placeholder="Seu Telefone" required>
+                            <input  id="assunto" type="text" class="input opacidade " placeholder="Assunto" required>
+                            <textarea class="opacidade" placeholder="Conte O que deseja" name="contato" id="contato" cols="72" rows="10" required></textarea>
+                            <input type="submit" class="submit" value="Enviar">
+                        </form>
+                    </div>
+                    <div id="btn-atacado"> 
+                      <p>Se Deseja Enviar Pedido Atacado
+                    <button type="button" id="showCreateBtn" class="togglebtn" onclick="show_create()">Clique Aqui  </button>
+                  </p>
+                  </div> 
+                  </div>
+                <div class="signup-form">
+                  <div class="heading">Faça Seu Pedido</div>
+                  <div class="input-box">
+                      <form action="" method="post">
+                          <input  id="nome" type="text" class="input opacidade" placeholder="Seu Nome" required>
+                          <input  id="email" type="email" class="input opacidade" placeholder="Seu E-mail" required>
+                          <input  id="telefone" type="text" class="input opacidade telefone" placeholder="Seu Número Celular" required>
+                          <input  id="assunto" type="text" class="input opacidade " placeholder="Assunto" required>
+                          <textarea class="opacidade" placeholder="Faça Seu Pedido" name="contato" id="contato" cols="72" rows="10" required></textarea>
+                          <input type="submit" class="submit" value="Enviar">
+                      </form>
+                  </div>
+                        </form>
+                        <div id="btn-atacado"> 
+                          <p>Se Deseja Enviar Pedido Atacado
+                            <button type="button" id="showCreateBtn" class="togglebtn" onclick="show_login()">Clique Aqui  </button>
+                      </p>
+                      </div> 
+                        
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footerpadrão -->
+    <footer>
+      <section class="footer-container">
+      <h5>Direitos Reservados</h5>
+
+      </section>
+    </footer>
+ 
+
+
+      </form>
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="js/jquery.mask.js"></script>
+      <script src="js/Script.js"></script>
+
+</body>
+</html>

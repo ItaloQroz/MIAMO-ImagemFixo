@@ -1,0 +1,36 @@
+@media (min-width: 0px) and (max-width: 800px){
+
+    #polaroids #linha1, #polaroids #linha2{
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    #mapa-conteudo{
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: auto;
+        margin: auto;
+    }
+
+    #google-maps{
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+
+
+    
+
+}
+
+
+
