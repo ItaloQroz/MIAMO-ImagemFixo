@@ -1,4 +1,4 @@
-@media (min-width: 800px){
+@media (max-width: 800px){
 
     #polaroids #linha1, #polaroids #linha2{
         display: flex ;
@@ -27,11 +27,18 @@
 
    #visao-conteudo #centralizar-texto{
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: column;
         display: flex;
     }
 
+     #google-maps{
+        width: 100%;
+    }
 
+    #lançamentos h1{
+        font-size: 50px;
+    }
+    
 }
 
 
