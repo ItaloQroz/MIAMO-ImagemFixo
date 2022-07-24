@@ -207,7 +207,8 @@ img{
 #visao-container {
     display: flex;
     justify-content: center;
-    
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 #visao-conteudo {
@@ -222,30 +223,40 @@ img{
 #centralizar-texto{
 display: flex;
 justify-content: center; 
-width: 80%;
-/* align-items: center; */
-flex-direction: row;
-/* margin: px; */
+width: 85%;
+flex-direction: column;
 padding: auto;
 margin: auto;
+margin-bottom: 50px;
 }
 
 #centralizar-texto img{
     justify-content: center;
-    margin: 2%;
-    margin-top: 5%;
-  
+    margin: 0 auto;
+    width: 30%;  
+    border-radius: 150px;
 }
 
 #visao-paragrafo {
     margin: auto;
     padding: auto;
     text-align: center;
+    width: 100%;
+   
 }
 
 #visao-paragrafo {
     margin: auto;
     padding: auto;
+    
+}
+
+#visao-paragrafo p, #visao-paragrafo h1{
+    margin: auto;
+    padding: auto;
+    padding-top: 20px;
+    text-align: center;
+    width: 70%;
 }
 
 
@@ -266,6 +277,7 @@ margin: auto;
 #sbr-empresa p {
     margin: auto;
     padding: auto;
+    margin-bottom: 30px;
 }
 
 
