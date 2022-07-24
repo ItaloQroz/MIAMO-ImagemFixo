@@ -314,7 +314,6 @@ margin-bottom: 50px;
 #google-maps iframe {
         width: 1800px;
         height: 500px;
-        filter: invert(1);
         
     
 }
