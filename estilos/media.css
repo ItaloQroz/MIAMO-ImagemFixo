@@ -1,4 +1,4 @@
-@media (min-width: 0px) and (max-width: 800px){
+@media (min-width: 800px){
 
     #polaroids #linha1, #polaroids #linha2{
         display: flex ;
@@ -25,12 +25,16 @@
 
     }
 
+   #visao-conteudo #centralizar-texto{
+        display: flex;
+        flex-direction: row-reverse;
+        display: flex;
+    }
 
-
-
-    
 
 }
+
+
 
 
 
