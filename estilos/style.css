@@ -311,11 +311,15 @@ margin-bottom: 50px;
 }
 
 
-#google-maps iframe {
-        width: 1800px;
+#google-maps iframe { 
+        width: 100%;
         height: 500px;
-        
     
+}
+
+#google-maps {
+    width: 95%;
+    height: 550px;
 }
 
 #localizacao-paragrafo {
@@ -450,12 +454,13 @@ margin-bottom: 50px;
 }
 
 #linha1 {
-    margin:2%;
-
+    margin:3%;
+    margin-top: 2%;
 }
 
 #linha2 {
-  margin: 2%;
+  margin: 3%;
+  margin-top: 2%;
 }
 
 #polaroids {
